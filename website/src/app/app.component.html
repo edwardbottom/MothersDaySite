@@ -1,4 +1,12 @@
-<app-header></app-header>
-<!--<app-letter></app-letter>-->
-<app-noah-letter></app-noah-letter>
-<app-photos></app-photos>
+<div *ngIf="!isVisible">
+    Sorry this is hidden! Enter the super secret password here!
+     <input type="text" [formControl]="password"/>
+     <button (click)="checkPassword()">Guess!</button>
+</div>
+<div *ngIf="isVisible">
+    <app-header></app-header>
+    <!--<app-letter></app-letter>-->
+    <app-noah-letter></app-noah-letter>
+    <app-photos></app-photos>
+</div>
+

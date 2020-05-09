@@ -6,6 +6,7 @@ import { PhotosComponent } from './photos/photos.component';
 import { HeaderComponent } from './header/header.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ReactiveFormsModule } from '@angular/forms';
 import { LetterComponent } from './letter/letter.component';
 import { NoahLetterComponent } from './noah-letter/noah-letter.component';
 
@@ -21,6 +22,7 @@ import { NoahLetterComponent } from './noah-letter/noah-letter.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
