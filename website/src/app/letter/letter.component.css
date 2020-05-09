@@ -6,6 +6,8 @@
     padding: 40px;
     margin-top: 20px;
     margin-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
   }
   
   /* On mouse-over, add a deeper shadow */
@@ -16,6 +18,6 @@
   /* Add some padding inside the card container */
   .container {
     padding: 2px 16px;
-    max-width: 1335px;
+    max-width: 1000px;
     margin: 0 auto;
   }
